@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sorteador</title>
+</head>
+
+<body>
+    <img class="foto-fundo" src="./img/fundo-verde-etexto_804788-5270.jpg " alt=" fonto-de-fundo">
+    <main>
+        <section>
+            <h1> Sorteador</h1>
+            <label  for="sorteio">
+                   <p>Sortear <input class="choose-your-number" type="number" value="1"> <span>Número</span> </p>
+            </label>
+               
+             <label class="label-box-2">
+                   <p>Entre <input class="input-min" type="number" value="1" ></p>
+            </label>
+           
+               <label class="label-box-3">
+                     <p>E <input class="input-max" type="number"  value="100"></p>
+              </label>
+
+            <button onclick=" generateNumber()">Sortear</button>
+
+         <spam id="result"></spam>
+
+    </section>
+    
+            <h2 id="contador"></h2> 
+ </main>
+    
+</body>
+<script src="./script.js"></script>
+
+</html>
